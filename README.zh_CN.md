@@ -1,16 +1,16 @@
-# naive-ui-vitepress-demo
+# Vitepress
 
-English · [中文](README.zh_CN.md)
+[English](README.md) · 中文
 
-This is a demo for using `naive-ui` in `vitepress` with SSR enabled.
+这是一个使用 `naive-ui`、`vitepress` 的样例，支持 SSR。
 
-You can directly use the demo.
+你可以直接使用这个样例。
 
-## Key process from scratch
+## 从零开始的关键步骤
 
-If you want to build your own demo from scratch, follow the next steps:
+如果你希望从头开始改造一个 vitepress 项目，遵循下列步骤
 
-### 1. Add this content to `.vitepress/theme/index.js`
+### 1. 把下面的内容增加到 `.vitepress/theme/index.js`
 
 ```js
 // .vitepress/theme/index.js
@@ -73,7 +73,7 @@ export default {
 }
 ```
 
-### 2. Add this content to `.vitepress/config.mts`
+### 2. 把下面的内容增加到 `.vitepress/config.mts`
 
 ```ts
 import { defineConfig } from 'vitepress'
@@ -109,7 +109,7 @@ export default defineConfig({
 })
 ```
 
-### 3. Start using naive-ui in your markdown file
+### 3. 在 markdown 文件中开始使用 naive-ui
 
 ```md
 ...
