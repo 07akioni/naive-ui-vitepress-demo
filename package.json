@@ -1,0 +1,15 @@
+{
+  "name": "naive-ui-vitepress-demo",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.1.4"
+  },
+  "dependencies": {
+    "@css-render/vue3-ssr": "^0.15.14",
+    "naive-ui": "^2.38.2"
+  }
+}
